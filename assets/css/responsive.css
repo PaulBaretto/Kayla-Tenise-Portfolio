@@ -18,6 +18,9 @@
     .sm_block{
         display: block;
     }
+    .section_min_height{
+        min-height: 90vh;
+    }
     /* Global CSS END  */
     /* Home START  */
     .home_carousel{

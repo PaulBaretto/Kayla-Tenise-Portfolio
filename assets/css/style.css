@@ -227,11 +227,17 @@ body.ActiveHome{
 }
 .about_section .about_content_grid{
     display: grid;
-    row-gap: 130px;
+    row-gap: 100px;
 }
 .edu_exp_skills_wrap .inner_item{
     display: flex;
     justify-content: space-between;
+}
+.edu_exp_skills_wrap .EES_content_wrap .mini_title{
+    font-weight: 600;
+} 
+.EES_date_wrap .medium_text{
+    color: var(--white-secondary);
 }
 /* About END */
 

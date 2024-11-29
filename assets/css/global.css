@@ -47,7 +47,7 @@
 }
 .edu_exp_skills_wrap{
     display: grid;
-    row-gap: 50px;
+    row-gap: 25px;
 }
 .EES_content_wrap{
     display: grid;
