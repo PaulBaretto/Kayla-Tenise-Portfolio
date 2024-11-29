@@ -1,0 +1,100 @@
+
+.custom_container{
+    margin-inline: auto;
+    padding-inline: 10px;
+}
+@media (min-width:576px) {
+    .custom_container{
+        max-width: 540px;
+    }
+}
+@media (min-width:768px) {
+    .custom_container{
+        max-width: 720px;
+    }
+}
+@media (min-width:992px) {
+    .custom_container{
+        max-width: 960px;
+    }
+}
+@media (min-width:1200px) {
+    .custom_container{
+        max-width: 1140px;
+    }
+}
+@media (min-width:1400px){
+    .custom_container{
+        max-width: 1320px;
+    }
+}
+
+.section_min_height{
+    min-height: 100vh;
+}
+.section_spacing{
+    padding-block: 60px 50px;
+}
+.top_page_name{
+    font-size: var(--heading-5);
+    font-weight: var(--font-weight-400);
+    color: var(--white-primary);
+}
+.sub_main_title{
+    font-size: var(--heading-2);
+    font-weight: var(--font-weight-500);
+    color: var(--white-primary);
+}
+.edu_exp_skills_wrap{
+    display: grid;
+    row-gap: 50px;
+}
+.EES_content_wrap{
+    display: grid;
+    row-gap: 7px;
+}
+.EES_content_wrap p{
+    margin-block: 0;
+}
+.mini_title{
+    font-size: var(--heading-5);
+    font-weight: var(--font-weight-500);
+    color: var(--white-primary);
+}
+.medium_text{
+    font-size: var(--text);
+    font-weight: var(--font-weight-500);
+    color: var(--white-primary);
+}
+.place_deg_wrap{
+    color: var(--white-secondary);
+}
+.text_small{
+    font-size: var(--text-small);
+    color: var(--white-secondary);
+    font-weight: var(--font-weight-400);
+}
+.about_inner_btn{
+    display: flex;
+    background-color: var(--white-primary);
+    color: var(--black-primary);
+    font-size: var(--text-smallest);
+    max-width: fit-content;
+    padding: 10px 12px;
+    border-radius: 5px;
+    gap: 5px;
+    text-decoration: none;
+    border: 1px solid var(--white-primary);
+    transition: 0.2s;
+    margin-top: 10px;
+}
+.about_inner_btn:hover{
+    background-color: transparent;
+    color: var(--white-primary);
+}
+.about_inner_btn .icon{
+    font-size: 12;
+}
+.text_bold{
+    font-weight: 600;
+}

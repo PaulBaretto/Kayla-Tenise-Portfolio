@@ -1,0 +1,191 @@
+{
+  "About_Content": [
+    {
+      "_comment": "About Images and Content",
+      "title": "Aspiring Game Artist & IT Professional with a Passion for Growth and Innovation"
+    },
+    {
+      "Images": [
+        {
+          "image_name": "profile-img-01.jpg",
+          "alt_tag": "Kayla Tenise Brooks"
+        },
+        {
+          "image_name": "profile-img-03.jpg",
+          "alt_tag": "Kayla Tenise Brooks"
+        }
+      ]
+    },
+    {
+      "title": "Aspiring Game Artist & IT Professional with a Passion for Growth and Innovation",
+      "Content": "<p>Hello!</p>\n<p>I’m Kayla Brooks, a recent graduate with a Bachelor’s in Computer Science from Jackson State University, class of December 2022. I began my career journey as an IT Support Analyst intern at Hollywood Casino Aurora with PENN Entertainment. This role was an invaluable experience, providing me with hands-on knowledge in End-User Support, Networking, and Infrastructure. I also gained skills in Project Management, where I contributed effective solutions that surpassed IT department goals and strengthened my problem-solving abilities.</p>\n<p>In addition to my technical background, I am actively exploring the creative side of technology. I am currently volunteering with [P1] Virtual Civilization Interactive to immerse myself in the Game Development process and to build a portfolio as a Game Artist. This experience has allowed me to connect with talented artists worldwide and develop a skillset in Graphic Design. I am enthusiastic about discovering my niche within the art field and would greatly appreciate any guidance or mentorship from industry professionals!</p>\n<p>I’m excited to connect with others who share my passion for tech and art, and I’m eager to discuss potential opportunities to grow as a technical professional while contributing to an organization’s success. Thank you for your time and consideration!</p>"
+    }
+  ],
+  "Worked_across": [
+    {
+      "_comment": "I’ve worked across domains Section",
+      "title": "I’ve worked across domains"
+    },
+    {
+      "jobs": [
+        {
+          "role": "Help Desk Support Technician",
+          "company": "GSD Technologies",
+          "startEndDate": "Aug 2024 - Present"
+        },
+        {
+          "role": "Game Artist",
+          "company": "[P1] Virtual Civilization Initiative",
+          "startEndDate": "Dec 2023 - Mar 2024"
+        }
+      ]
+    }
+  ],
+  "academic_journey": [
+    {
+      "_comment": "My Academic Journey Section",
+      "title": "My Academic Journey"
+    },
+    {
+      "Edu": [
+        {
+          "title": "Jackson State University",
+          "deg": "Bachelor's degree, Computer Science",
+          "grade": "Grade: 3.478",
+          "startEndDate": "Aug 2018 - Dec 2022"
+        }
+      ]
+    }
+  ],
+  "professional_badges": [
+    {
+      "_comment": "My Professional Badges Section",
+      "title": "My Professional Badges"
+    },
+    {
+      "pro_badges": [
+        {
+          "title": "CompTIA Security+ ce Certification",
+          "place": "CompTIA",
+          "startEndDate": "Issued Jul 2024 · Expires Jul 2027",
+          "credential": "Credential ID J6D3XS66EN11QP59",
+          "credential_link": "https://www.credly.com/badges/1c5c7310-87f7-4d57-9491-ff26a820d41a/linked_in_profile"
+        }
+      ]
+    }
+  ],
+  "Work_wrap": [
+    {
+      "_comment": "Work Wrap",
+      "title": "Work"
+    },
+    {
+      "Work_items_wrap": [
+        {
+          "carousel_imgs":[
+            {
+              "link_only_name": "true",
+              "img": "carsouesl-img-01.png"
+            },
+            {
+              "link_only_name": "true",
+              "img": "carsouesl-img-02.jpg"
+            },
+            {
+              "link_only_name": "true",
+              "img": "carsouesl-img-01.png"
+            }
+          ],
+          "content_wrap":{
+            "title":"3D Astronaut Lander",
+            "description": "<p>Digital Paintings was created following the Digital Painting Krita 5.0 Tutorial on Udemy instructed by Widhi Muttaqien.<p>",
+            "button_wrap": [
+              {
+                "link_only_name": "false",
+                "icon": "https://i.imgur.com/li2px0V.png",
+                "text": "Krita"
+              },
+              {
+                "link_only_name": "true",
+                "icon": "krita_logo1.png",
+                "text": "Krita"
+              },
+              {
+                "link_only_name": "true",
+                "icon": "krita_logo1.png",
+                "text": "Krita"
+              },
+              {
+                "link_only_name": "true",
+                "icon": "krita_logo1.png",
+                "text": "Krita"
+              },
+              {
+                "link_only_name": "true",
+                "icon": "krita_logo1.png",
+                "text": "Krita"
+              },
+              {
+                "link_only_name": "true",
+                "icon": "krita_logo1.png",
+                "text": "Krita"
+              }
+            ]
+          }
+        },
+        {
+          "carousel_imgs":[
+            {
+              "link_only_name": "true",
+              "img": "carsouesl-img-01.png"
+            },
+            {
+              "link_only_name": "true",
+              "img": "carsouesl-img-02.jpg"
+            },
+            {
+              "link_only_name": "true",
+              "img": "carsouesl-img-01.png"
+            }
+          ],
+          "content_wrap":{
+            "title":"3D Astronaut Lander",
+            "description": "<p>Digital Paintings was created following the Digital Painting Krita 5.0 Tutorial on Udemy instructed by Widhi Muttaqien.<p>",
+            "button_wrap": [
+              {
+                "link_only_name": "true",
+                "icon": "krita_logo1.png",
+                "text": "Krita"
+              },
+              {
+                "link_only_name": "true",
+                "icon": "krita_logo1.png",
+                "text": "Krita"
+              },
+              {
+                "link_only_name": "true",
+                "icon": "krita_logo1.png",
+                "text": "Krita"
+              },
+              {
+                "link_only_name": "true",
+                "icon": "krita_logo1.png",
+                "text": "Krita"
+              },
+              {
+                "link_only_name": "true",
+                "icon": "krita_logo1.png",
+                "text": "Krita"
+              },
+              {
+                "link_only_name": "true",
+                "icon": "krita_logo1.png",
+                "text": "Krita"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

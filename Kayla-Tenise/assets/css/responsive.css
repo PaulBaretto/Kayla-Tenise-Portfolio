@@ -1,0 +1,70 @@
+
+/* Tab Media  */
+@media only screen and (min-width:768px) and (max-width:992px){
+
+    /* Footer START  */
+    .footer_section .footer_title_wrap .title{
+        font-size: 110px;
+    }
+    /* Footer END */
+}
+
+/* Mobile Media  */
+@media only screen and (max-width:768px){
+    /* Global CSS START  */
+    .sm_none{
+        display: none;
+    }
+    .sm_block{
+        display: block;
+    }
+    /* Global CSS END  */
+    /* Home START  */
+    .home_carousel{
+        max-width: 80%;
+    }
+    /* Home END */
+
+/* About START  */
+.about_section .about_content_grid{
+    row-gap: 70px;
+}
+.edu_exp_skills_wrap .inner_item{
+    flex-direction: column;
+}
+/* About END  */
+
+/* Work START  */
+.carousel_wrap .img_wrap{
+    height: auto;
+}
+.carousel_wrap .img_wrap img{
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Work END */
+
+    /* Footer START  */
+    .footer_section .footer_title_wrap .title{
+        font-size: 60px;
+    }
+    .social_buttons_wrap .single_button{
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+    .social_buttons_wrap .single_button .social_icon{
+        color: var(--black-primary);
+        font-size: 20px;
+    }
+    .social_buttons_wrap .single_button:hover .social_icon{
+        color: var(--white-primary);
+    }
+    .footer_lines_wrap .line_box:nth-child(2){
+        width: 65rem;
+    }
+    .footer_lines_wrap .line_box .line{
+        /* display: none; */
+    }
+    /* Footer END */
+}

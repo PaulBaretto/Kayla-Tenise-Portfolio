@@ -1,0 +1,61 @@
+
+
+:root{
+    --font-primary: "Fira Mono", serif;
+    --font-secondary: "Fira Sans", serif;
+    
+    /* Text Size  */
+    --heading-1:100px;
+    --heading-2:40px;
+    --heading-3:30px;
+    --heading-4:25px;
+    --heading-5:20px;
+    --text:18px;
+    --text-small:15px;
+    --text-smallest:12px;
+
+    /* Text Weight  */
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+
+    /* Colors   */
+    --white-primary:#ECECEC;
+    --white-secondary:#D9D9D9;
+    --black-primary: #181818;
+    --black-secondary:#4E4E4E;
+    --accent-color: #B0FF92;
+    --nav-bg-radial-gradient:radial-gradient(circle, rgba(40,40,40,1) 0%, rgba(16,15,15,1) 100%);
+    --black-radial-gradient: radial-gradient(circle, rgba(62,61,61,1) 0%, rgba(16,15,15,1) 100%);
+    --black-radial-gradient-text:radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 59%, rgba(95,94,94,1) 100%);
+    --black-linear-gradient-right:linear-gradient(90deg, rgba(113,113,113,1) 0%, rgba(16,15,15,1) 100%);
+    --black-linear-gradient-left:linear-gradient(90deg, rgba(16,15,15,1) 0%, rgba(113,113,113,1)  100%); 
+}
+
+
+
+/* Tab Media  */
+@media only screen and (min-width:768px) and (max-width:992px){
+
+}
+
+/* Mobile Media  */
+@media only screen and (max-width:768px){
+    :root{
+        --heading-2:30px;
+        --heading-5:16px;
+        --text:15px;
+        --text-small:13px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    :root{
+        --heading-2:27px;
+        --heading-5:15px;
+        --text:14px;
+        --text-small:13px;
+    }
+}
+
