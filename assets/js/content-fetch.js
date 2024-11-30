@@ -275,7 +275,8 @@ function  Work(){
             
             let carousel_img_arr = thedata['carousel_imgs'];
             carousel_img_arr.forEach((el, list) => {
-                let img_path = 'https://kayla-tenise.netlify.app/assets/images/work/'
+                // let img_path = 'https://kayla-tenise.netlify.app/assets/images/work/'
+                let img_path = 'assets/images/work/'
                 let item = document.createElement('div');
                     item.setAttribute('class', 'item');
                     let img_wrap = document.createElement('div');
@@ -332,6 +333,7 @@ function  Work(){
  
         Object.keys(thedata).length > 1 ? carousel_content_main_wrap.appendChild(inner_item) : '' ;
         Object.keys(thedata['carousel_imgs']).length > 0 ? inner_item.appendChild(carousel_wrap) : '' ;
+        console.log(Object.keys(thedata['carousel_imgs']).length, thedata['carousel_imgs'])
         Object.keys(thedata['content_wrap']).length > 0 ? inner_item.appendChild(content_wrap) : '' ;
         thedata['carousel_imgs'].length > 1 ? carousel_wrap.append(work_carousel_wrap): '';
         thedata['content_wrap'].title === '' || thedata['content_wrap'].title === undefined ? '' : content_wrap.appendChild(content_title);

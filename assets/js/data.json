@@ -193,7 +193,7 @@
           "carousel_imgs": [
             {
               "link_only_name": "true",
-              "img": "kayla-tenise-brooks-rockconcept-01.jpg"
+              "img": "rockconcept-01.jpg"
             }
           ],
           "content_wrap": {
@@ -216,11 +216,15 @@
             },
             {
               "link_only_name": "true",
-              "img": "kayla-brooks-skyjellylanderside-02.jpg"
+              "img": "kayla-brooks-lander-02.jpg"
             },
             {
               "link_only_name": "true",
               "img": "kayla-brooks-lander-inside-05.jpg"
+            },
+            {
+              "link_only_name": "true",
+              "img": "kayla-brooks-screenshot-2024-02-09-115702-04.jpg"
             },
             {
               "link_only_name": "true",
@@ -243,7 +247,7 @@
           "carousel_imgs": [
             {
               "link_only_name": "true",
-              "img": "kayla-brooks-berrybush1-23-24-01.jpg"
+              "img": "rockconcept-01.jpg"
             }
           ],
           "content_wrap": {
