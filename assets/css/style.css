@@ -5,7 +5,7 @@ body::-webkit-scrollbar{
 body{
     font-family: var(--font-primary);
     margin: 0;
-    background-image: url(../images/bg-img/Home-bg.png);
+    background-image: url(../images/bg-img/bg-img.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -94,7 +94,8 @@ body.ActiveHome{
     right: 0;
     max-width: 170px;
     margin-inline:auto;
-    background: var(--nav-bg-radial-gradient);
+    /* background: var(--nav-bg-radial-gradient); */
+    background: #100f0f;
     padding: 10px;
     border-radius: 20px;
     z-index: 100;
@@ -155,6 +156,12 @@ body.ActiveHome{
 /* Navbar END */
 
 /* Home START */
+.home_section{
+    opacity: 0;
+}
+.ActiveHome .home_section{
+    opacity: 1;
+}
 .heading_main{
  font-size: var(--heading-1);
  color: var(--white-primary);
@@ -162,9 +169,30 @@ body.ActiveHome{
  display: grid;
  text-align: center;
  margin-bottom: 10px;
-
+ transition: 0.3s linear;
+ transform:scale(0.9);
 }
 
+/* Text Animation  START */
+.ani_text,.ani_text_reverse{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.ani_text_inner{
+    position: relative;
+    transform: translateY(100%);
+    display: inline-block;
+    transition: 0.4s linear;
+    opacity: 0;
+}
+/* .ani_text_inner:nth-child(1){
+    transition-delay:0.2ms;
+} */
+/* Text Animation END */
+.home_outer{
+    overflow: hidden;
+}
 .home_carousel{
     display: flex;
     align-items: center;
@@ -176,6 +204,8 @@ body.ActiveHome{
     margin-inline: auto;
     overflow: hidden;
     text-align: center;
+    transform: translateY(105%);
+    transition: 0.3s linear;
 }
 .home_carousel .owl-stage{
     display: flex;
@@ -197,11 +227,16 @@ body.ActiveHome{
     color: var(--accent-color);
     font-size: 12px;
 }
+.home_sub_title_outer{
+    overflow: hidden;
+}
 .home_sub_title{
     font-size: var(--heading-3);
-    color: var(--white-primary);
+    color: var(--accent-color);
     font-weight: var(--font-weight-500);
     text-align: center;
+    transform: translateY(185%);
+    transition: 0.3s linear;
 }
 /* Home END */
 
@@ -260,7 +295,7 @@ body.ActiveHome{
 }
 .carousel_wrap .img_wrap{
     width: 100%;
-    height: 100%;
+    height: 600px;
     display: flex;
     justify-content: center;
     cursor: grab;

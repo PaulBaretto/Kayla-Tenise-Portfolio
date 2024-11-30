@@ -1,10 +1,9 @@
 
-import {get_url_data} from './function.js';
-
-
+import {get_url_data, textAnimation, textAnimation_reverse} from './function.js';
 
 const thebody = document.querySelector('body');
 
+  AOS.init();
 // Custom cursor START
 const cursor = document.querySelector('.custom_cursor');
 
@@ -90,8 +89,32 @@ if(get_url_data('p') === 'about'){
     console.log(nav_wrap.childNodes[5].classList.add('active'))
     
 }else{
-    document.querySelector('title').innerHTML = 'Kayla Tenise Brooks | Home'
+    document.querySelector('title').innerHTML = 'Kayla Tenise Brooks | Home';
+    thebody.classList.add('ActiveHome');
 }
 
+
+// Opening Text animation Output 
+let the_text = document.querySelectorAll('.ani_text'); 
+let ani_text_reverse = document.querySelectorAll('.ani_text_reverse'); 
+the_text.forEach(el => {
+    textAnimation(el)
+})
+ani_text_reverse.forEach(el => {
+    textAnimation_reverse(el)
+})
+
+let main_title = document.querySelector('.heading_main')
+let home_carousel = document.querySelector('.home_carousel ')
+let home_sub_title = document.querySelector('.home_sub_title')
+setTimeout(() => {
+    main_title.style.cssText = 'transform:scale(1.0);';
+}, 800);
+setTimeout(() => {
+    home_carousel.style.cssText =  'transform:translateY(0px)';
+}, 1000);
+setTimeout(() => {
+    home_sub_title.style.cssText =  'transform:translateY(0px)';
+}, 1100);
 
 

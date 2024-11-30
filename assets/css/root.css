@@ -35,6 +35,13 @@
 
 
 
+/* Laptop  */
+@media only screen and (max-width:1400px)  and (min-width:1024px) {
+    :root{
+        --heading-5:17px;
+    }
+}
+
 /* Tab Media  */
 @media only screen and (min-width:768px) and (max-width:992px){
 
@@ -43,6 +50,7 @@
 /* Mobile Media  */
 @media only screen and (max-width:768px){
     :root{
+        --heading-1:80px;
         --heading-2:30px;
         --heading-5:16px;
         --text:15px;

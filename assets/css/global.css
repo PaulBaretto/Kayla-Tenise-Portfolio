@@ -42,7 +42,7 @@
 }
 .sub_main_title{
     font-size: var(--heading-2);
-    font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-600);
     color: var(--white-primary);
 }
 .edu_exp_skills_wrap{
@@ -59,7 +59,7 @@
 .mini_title{
     font-size: var(--heading-5);
     font-weight: var(--font-weight-500);
-    color: var(--white-primary);
+    color: var(--accent-color);
 }
 .medium_text{
     font-size: var(--text);

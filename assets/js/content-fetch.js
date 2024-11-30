@@ -26,13 +26,15 @@ function  about_img_content(){
           about_content_grid.append(content_wrap);
     }
 
-    let content_wrap_title =  `${data[0].title !== '' ? `<h2 class="sub_main_title">${data[0].title}</h2> `: ''} `;
+    let content_wrap_title =  `${data[0].title !== '' ? `<h2 class="sub_main_title" data-aos="fade-up" data-aos-easing="linear">${data[0].title}</h2> `: ''} `;
         content_wrap.innerHTML = content_wrap_title;
     let data_arr = data[1].Images;
     // console.log(data_arr)
 
         let about_content = document.createElement('div')
             about_content.setAttribute('class', 'about_content medium_text')
+            about_content.setAttribute('data-aos', 'fade-up')
+            about_content.setAttribute('data-aos-easing', 'linear')
             about_content.innerHTML = data[2].Content;
             data[2].Content === ' ' || data[2].Content === undefined ? '' : content_wrap.appendChild(about_content);
       
@@ -41,6 +43,8 @@ function  about_img_content(){
     //   console.log(thedata.image_name)
       let img_wrap = document.createElement('div');
           img_wrap.setAttribute('class', 'img_wrap');
+          img_wrap.setAttribute('data-aos', 'fade-up')
+          img_wrap.setAttribute('data-aos-easing', 'linear')
       let about_img_tag = document.createElement('img');
           about_img_tag.setAttribute('src',` ${img_path}${thedata.image_name}` )
           about_img_tag.setAttribute('alt', thedata.alt_tag)
@@ -69,12 +73,14 @@ function  Work_exp(){
           about_content_grid.append(content_wrap);
     }
 
-    let content_wrap_title =  `${data[0].title !== '' ? `<h2 class="sub_main_title">${data[0].title}</h2> `: ''} `;
+    let content_wrap_title =  `${data[0].title !== '' ? `<h2 class="sub_main_title" data-aos="fade-up" data-aos-easing="linear">${data[0].title}</h2> `: ''} `;
         content_wrap.innerHTML = content_wrap_title;
     let data_arr = data[1].jobs;
 
         let edu_exp_skills_wrap = document.createElement('div')
             edu_exp_skills_wrap.setAttribute('class', 'edu_exp_skills_wrap')
+            edu_exp_skills_wrap.setAttribute('data-aos', 'fade-up')
+            edu_exp_skills_wrap.setAttribute('data-aos-easing', 'linear')
             content_wrap.appendChild(edu_exp_skills_wrap);
     
       
@@ -127,12 +133,14 @@ function  academic_journey(){
         about_content_grid.append(content_wrap);
   }
 
-  let content_wrap_title =  `${data[0].title !== '' ? `<h2 class="sub_main_title">${data[0].title}</h2> `: ''} `;
+  let content_wrap_title =  `${data[0].title !== '' ? `<h2 class="sub_main_title" data-aos="fade-up" data-aos-easing="linear">${data[0].title}</h2> `: ''} `;
       content_wrap.innerHTML = content_wrap_title;
   let data_arr = data[1].Edu;
 
       let edu_exp_skills_wrap = document.createElement('div')
           edu_exp_skills_wrap.setAttribute('class', 'edu_exp_skills_wrap')
+          edu_exp_skills_wrap.setAttribute('data-aos', 'fade-up')
+          edu_exp_skills_wrap.setAttribute('data-aos-easing', 'linear')
           content_wrap.appendChild(edu_exp_skills_wrap);
   
     
@@ -189,12 +197,14 @@ function  professional_badges(){
         about_content_grid.append(content_wrap);
   }
 
-  let content_wrap_title =  `${data[0].title !== '' ? `<h2 class="sub_main_title">${data[0].title}</h2> `: ''} `;
+  let content_wrap_title =  `${data[0].title !== '' ? `<h2 class="sub_main_title" data-aos="fade-up" data-aos-easing="linear">${data[0].title}</h2> `: ''} `;
       content_wrap.innerHTML = content_wrap_title;
   let data_arr = data[1].pro_badges;
 
       let edu_exp_skills_wrap = document.createElement('div')
           edu_exp_skills_wrap.setAttribute('class', 'edu_exp_skills_wrap')
+          edu_exp_skills_wrap.setAttribute('data-aos', 'fade-up')
+          edu_exp_skills_wrap.setAttribute('data-aos-easing', 'linear')
           content_wrap.appendChild(edu_exp_skills_wrap);
   
     
@@ -258,11 +268,14 @@ function  Work(){
             inner_item.setAttribute('class', 'inner_item')
         let carousel_wrap = document.createElement('div');
             carousel_wrap.setAttribute('class', 'carousel_wrap');
+            carousel_wrap.setAttribute('data-aos', 'fade-up');
+            carousel_wrap.setAttribute('data-aos-easing', 'linear');
             let work_carousel_wrap = document.createElement('div');
                 work_carousel_wrap.setAttribute('class', 'work_carousel_wrap owl-carousel owl-theme');
             
             let carousel_img_arr = thedata['carousel_imgs'];
             carousel_img_arr.forEach((el, list) => {
+                let img_path = 'https://kayla-tenise.netlify.app/assets/images/work/'
                 let item = document.createElement('div');
                     item.setAttribute('class', 'item');
                     let img_wrap = document.createElement('div');
@@ -279,6 +292,8 @@ function  Work(){
 
         let content_wrap = document.createElement('div');
             content_wrap.setAttribute('class', 'content_wrap');
+            content_wrap.setAttribute('data-aos', 'fade-up');
+            content_wrap.setAttribute('data-aos-easing', 'linear');
             let content_title = document.createElement('h2');
                 content_title.setAttribute('class', 'sub_main_title')
                 content_title.innerHTML = thedata['content_wrap'].title;
@@ -290,12 +305,14 @@ function  Work(){
                 let softwere_used_title = document.createElement('h4');
                     softwere_used_title.setAttribute('class', 'mini_title text_bold softwere_used_title')
                     softwere_used_title.innerHTML = 'Software Used';
-                    thedata['content_wrap']['button_wrap'] < 1 ? '': software_used_wrap.appendChild(softwere_used_title);
+                    thedata['content_wrap']['button_wrap'][0].text !== ' ' ? software_used_wrap.appendChild(softwere_used_title) : '';
+                    console.log(thedata['content_wrap']['button_wrap'].length)
                 let softwere_btn_wrap = document.createElement('div');
                     softwere_btn_wrap.setAttribute('class', 'softwere_btn_wrap');
 
                 let button_arr = thedata['content_wrap']['button_wrap'];
                 button_arr.forEach((el, list) => {
+                    // let img_path = 'assets/images/icons';
                     let button = document.createElement('button');
                         button.setAttribute('class', 'softwere_btn')
                     let icon = document.createElement('span');
@@ -306,21 +323,28 @@ function  Work(){
                         softwere_text.setAttribute('class', 'softwere_text')
                         softwere_text.innerHTML = thedata['content_wrap']['button_wrap'][list].text;
 
-                thedata['content_wrap']['button_wrap'][list].text === '' || thedata['content_wrap']['button_wrap'][list].text === undefined ? '' : softwere_btn_wrap.appendChild(button);
-                thedata['content_wrap']['button_wrap'][list].icon === '' || thedata['content_wrap']['button_wrap'][list].icon === undefined ? '' : button.appendChild(icon);
-                thedata['content_wrap']['button_wrap'][list].icon === '' || thedata['content_wrap']['button_wrap'][list].icon === undefined? "": icon.appendChild(img)
-                thedata['content_wrap']['button_wrap'][list].text === '' || thedata['content_wrap']['button_wrap'][list].text === undefined ? '' : button.appendChild(softwere_text);
+                thedata['content_wrap']['button_wrap'][list].text === ' ' || thedata['content_wrap']['button_wrap'][list].text === undefined ? '' : softwere_btn_wrap.appendChild(button);
+                thedata['content_wrap']['button_wrap'][list].text === ' ' || thedata['content_wrap']['button_wrap'][list].text === undefined ? '' : button.appendChild(icon);
+                thedata['content_wrap']['button_wrap'][list].icon === ' ' || thedata['content_wrap']['button_wrap'][list].icon === undefined? "": icon.appendChild(img)
+                thedata['content_wrap']['button_wrap'][list].text === ' ' || thedata['content_wrap']['button_wrap'][list].text === undefined ? '' : button.appendChild(softwere_text);
                 
                 })
  
         Object.keys(thedata).length > 1 ? carousel_content_main_wrap.appendChild(inner_item) : '' ;
-        Object.keys(thedata['carousel_imgs']).length > 1 ? inner_item.appendChild(carousel_wrap) : '' ;
-        Object.keys(thedata['content_wrap']).length > 1 ? inner_item.appendChild(content_wrap) : '' ;
+        Object.keys(thedata['carousel_imgs']).length > 0 ? inner_item.appendChild(carousel_wrap) : '' ;
+        Object.keys(thedata['content_wrap']).length > 0 ? inner_item.appendChild(content_wrap) : '' ;
         thedata['carousel_imgs'].length > 1 ? carousel_wrap.append(work_carousel_wrap): '';
         thedata['content_wrap'].title === '' || thedata['content_wrap'].title === undefined ? '' : content_wrap.appendChild(content_title);
         thedata['content_wrap'].description === '' || thedata['content_wrap'].description === undefined ? '' : content_wrap.appendChild(desc_wrap);
-        thedata['content_wrap']['button_wrap'].length > 1 ? content_wrap.appendChild(software_used_wrap) : '' ;
-        thedata['content_wrap']['button_wrap'].length > 1 ? software_used_wrap.appendChild(softwere_btn_wrap) : '' ;
+        thedata['content_wrap']['button_wrap'].length > 0 ? content_wrap.appendChild(software_used_wrap) : '' ;
+        thedata['content_wrap']['button_wrap'].length > 0 ? software_used_wrap.appendChild(softwere_btn_wrap) : '' ;
+
+        // if(thedata['content_wrap']['button_wrap'].length > 0){
+        //     software_used_wrap.appendChild(softwere_btn_wrap)
+        //     // console.log('ture')
+        // }else{
+        //     console.log('false')
+        // }
 
         $('.work_carousel_wrap').owlCarousel({
             loop:true,
@@ -328,7 +352,7 @@ function  Work(){
             nav:true,
             navText: ["<span> <i class='fa-solid fa-arrow-left-long'></i> </span>", "<span> <i class='fa-solid fa-arrow-right-long'></i> </span>"],
             dots:true,
-            autoplay: true,
+            autoplay: false,
             slideTransition: 'ease',
             autoplayTimeout: 2000,
             autoplaySpeed: 2000,
