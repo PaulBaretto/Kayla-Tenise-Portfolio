@@ -169,7 +169,7 @@ body.ActiveHome{
  display: grid;
  text-align: center;
  margin-bottom: 10px;
- transition: 0.8s linear;
+ transition: 0.7s linear;
  transform:scale(0.9);
 }
 
@@ -183,7 +183,7 @@ body.ActiveHome{
     position: relative;
     transform: translateY(100%);
     display: inline-block;
-    transition: 0.4s linear;
+    transition: 0.4s ease;
     opacity: 0;
 }
 /* .ani_text_inner:nth-child(1){
