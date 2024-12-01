@@ -333,20 +333,12 @@ function  Work(){
  
         Object.keys(thedata).length > 1 ? carousel_content_main_wrap.appendChild(inner_item) : '' ;
         Object.keys(thedata['carousel_imgs']).length > 0 ? inner_item.appendChild(carousel_wrap) : '' ;
-        console.log(Object.keys(thedata['carousel_imgs']).length, thedata['carousel_imgs'])
         Object.keys(thedata['content_wrap']).length > 0 ? inner_item.appendChild(content_wrap) : '' ;
-        thedata['carousel_imgs'].length > 1 ? carousel_wrap.append(work_carousel_wrap): '';
+        thedata['carousel_imgs'].length > 0 ? carousel_wrap.append(work_carousel_wrap): '';
         thedata['content_wrap'].title === '' || thedata['content_wrap'].title === undefined ? '' : content_wrap.appendChild(content_title);
         thedata['content_wrap'].description === '' || thedata['content_wrap'].description === undefined ? '' : content_wrap.appendChild(desc_wrap);
         thedata['content_wrap']['button_wrap'].length > 0 ? content_wrap.appendChild(software_used_wrap) : '' ;
         thedata['content_wrap']['button_wrap'].length > 0 ? software_used_wrap.appendChild(softwere_btn_wrap) : '' ;
-
-        // if(thedata['content_wrap']['button_wrap'].length > 0){
-        //     software_used_wrap.appendChild(softwere_btn_wrap)
-        //     // console.log('ture')
-        // }else{
-        //     console.log('false')
-        // }
 
         $('.work_carousel_wrap').owlCarousel({
             loop:true,
