@@ -346,7 +346,7 @@ function  Work(){
             nav:true,
             navText: ["<span> <i class='fa-solid fa-arrow-left-long'></i> </span>", "<span> <i class='fa-solid fa-arrow-right-long'></i> </span>"],
             dots:true,
-            autoplay: false,
+            autoplay: true,
             slideTransition: 'ease',
             autoplayTimeout: 2000,
             autoplaySpeed: 2000,
