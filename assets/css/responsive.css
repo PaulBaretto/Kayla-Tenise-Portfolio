@@ -70,5 +70,8 @@
     .footer_lines_wrap .line_box .line{
         /* display: none; */
     }
+    .the_navbar{
+        max-width: 180px;
+    }
     /* Footer END */
 }

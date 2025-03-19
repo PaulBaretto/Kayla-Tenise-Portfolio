@@ -107,6 +107,7 @@ ani_text_reverse.forEach(el => {
 let main_title = document.querySelector('.heading_main')
 let home_carousel = document.querySelector('.home_carousel ')
 let home_sub_title = document.querySelector('.home_sub_title')
+let home_nav_pages = document.querySelector('.home_nav_outer .page_nav_buttons')
 setTimeout(() => {
     main_title.style.cssText = 'transform:scale(1.0);';
 }, 800);
@@ -116,5 +117,8 @@ setTimeout(() => {
 setTimeout(() => {
     home_sub_title.style.cssText =  'transform:translateY(0px)';
 }, 1100);
+setTimeout(() => {
+    home_nav_pages.style.cssText =  'transform:translateY(0px)';
+}, 1200);
 
 

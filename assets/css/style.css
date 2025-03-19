@@ -134,6 +134,8 @@ body.ActiveHome{
     padding: 10px;
     font-size: 25px;
     border-radius: 15px;
+    width: 32px;
+    text-align: center;
 }
 .the_navbar .nav_item.active .nav_link{
     color: var(--accent-color);
@@ -486,3 +488,42 @@ body.ActiveHome{
     background: var(--black-linear-gradient-right);
 }
 /* Footer END */
+
+
+.home_nav_outer{
+    overflow: hidden;
+
+.page_nav_buttons{
+    transform: translateY(220%);
+    transition: 0.4s linear;
+}
+.social_buttons_wrap.page_nav_buttons .single_button{
+    border-radius: 10px;
+}
+.social_buttons_wrap.page_nav_buttons .single_button .social_text{
+    font-size: var(--heading-4);
+}
+.social_buttons_wrap .single_button.active{
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.social_buttons_wrap.page_nav_buttons .single_button.active .social_text{
+    color: var(--black-primary);
+}
+.social_buttons_wrap .single_button.active:hover{
+    color: var(--black-primary);
+    background-color: transparent;
+}
+.social_buttons_wrap .single_button.active:hover .social_text{
+    color: var(--accent-color);
+}
+.social_buttons_wrap .single_button.active .social_text:hover,
+.social_buttons_wrap .single_button.active .social_text:active{
+    color: var(--accent-color);
+    /* color: var(--black-primary); */
+}
+.social_buttons_wrap .single_button{
+    width: 75px;
+    padding: 10px 20px;
+}
+}
