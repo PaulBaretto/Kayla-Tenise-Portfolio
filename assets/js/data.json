@@ -1,287 +1,288 @@
 {
-  "About_Content": [
-    {
-      "_comment": "About Images and Content",
-      "title": "Aspiring Game Artist & IT Professional with a Passion for Growth and Innovation"
-    },
-    {
-      "Images": [
-        {
-          "image_name": "profile-img-01.jpg",
-          "alt_tag": "Kayla Tenise Brooks"
-        },
-        {
-          "image_name": "profile-img-03.jpg",
-          "alt_tag": "Kayla Tenise Brooks"
-        }
-      ]
-    },
-    {
-      "title": "Aspiring Game Artist & IT Professional with a Passion for Growth and Innovation",
-      "Content": "<p>Hello!</p>\n<p>I’m Kayla Brooks, a recent graduate with a Bachelor’s in Computer Science from Jackson State University, class of December 2022. I began my career journey as an IT Support Analyst intern at Hollywood Casino Aurora with PENN Entertainment. This role was an invaluable experience, providing me with hands-on knowledge in End-User Support, Networking, and Infrastructure. I also gained skills in Project Management, where I contributed effective solutions that surpassed IT department goals and strengthened my problem-solving abilities.</p>\n<p>In addition to my technical background, I am actively exploring the creative side of technology. I am currently volunteering with [P1] Virtual Civilization Interactive to immerse myself in the Game Development process and to build a portfolio as a Game Artist. This experience has allowed me to connect with talented artists worldwide and develop a skillset in Graphic Design. I am enthusiastic about discovering my niche within the art field and would greatly appreciate any guidance or mentorship from industry professionals!</p>\n<p>I’m excited to connect with others who share my passion for tech and art, and I’m eager to discuss potential opportunities to grow as a technical professional while contributing to an organization’s success. Thank you for your time and consideration!</p>"
-    }
-  ],
-  "Worked_across": [
-    {
-      "_comment": "I’ve worked across domains Section",
-      "title": "I’ve worked across domains"
-    },
-    {
-      "jobs": [
-        {
-          "role": "Help Desk Support Technician",
-          "company": "GSD Technologies · Full-time",
-          "startEndDate": "Aug 2024 - Present"
-        },
-        {
-          "role": "Game Artist",
-          "company": "[P1] Virtual Civilization Initiative · Part-time",
-          "startEndDate": "Dec 2023 - Mar 2024"
-        },
-        {
-          "role": "Information Technology Support Analyst",
-          "company": "PENN Entertainment, Inc · Full-time",
-          "startEndDate": "Jan 2023 - Jan 2024"
-        },
-        {
-          "role": "IT LEAP Intern",
-          "company": "PENN Entertainment, Inc · Internship",
-          "startEndDate": "Jun 2022 - Aug 2022"
-        },
-        {
-          "role": "Mail Sorter",
-          "company": "Onin Staffing · Full-time",
-          "startEndDate": "Dec 2020 - Jan 2021"
-        },
-        {
-          "role": "Fast Food Team Member",
-          "company": "Dairy Queen · Full-time",
-          "startEndDate": "May 2020 - Jun 2020"
-        },
-        {
-          "role": "Warehouse Associate",
-          "company": "Amazon · Full-time",
-          "startEndDate": "May 2019 - Aug 2019"
-        },
-        {
-          "role": "Associate",
-          "company": "Kohl's · Part-time",
-          "startEndDate": "Dec 2017 - Dec 2018"
-        },
-        {
-          "role": "Crew Member",
-          "company": "Culver's Restaurants · Part-time",
-          "startEndDate": "Dec 2016 - Dec 2017"
-        }
-      ]
-    }
-  ],
-  "academic_journey": [
-    {
-      "_comment": "My Academic Journey Section",
-      "title": "My Academic Journey"
-    },
-    {
-      "Edu": [
-        {
-          "title": "Jackson State University",
-          "deg": "Bachelor's degree, Computer Science",
-          "grade": "Grade: 3.478",
-          "startEndDate": "Aug 2018 - Dec 2022"
-        }
-      ]
-    }
-  ],
-  "professional_badges": [
-    {
-      "_comment": "My Professional Badges Section",
-      "title": "My Professional Badges"
-    },
-    {
-      "pro_badges": [
-        {
-          "title": "CompTIA Security+ ce Certification",
-          "place": "CompTIA",
-          "startEndDate": "Issued Jul 2024 · Expires Jul 2027",
-          "credential": "Credential ID J6D3XS66EN11QP59",
-          "credential_link": "https://www.credly.com/badges/1c5c7310-87f7-4d57-9491-ff26a820d41a/linked_in_profile"
-        }
-      ]
-    }
-  ],
-  "Work_wrap": [
-    {
-      "_comment": "Work Wrap",
-      "title": "Work"
-    },
-    {
-      "Work_items_wrap": [
-        {
-          "carousel_imgs": [
-            {
-              "link_only_name": "true",
-              "img": "kayla-tenise-brooks-asset.jpg"
-            },
-            {
-              "link_only_name": "true",
-              "img": "kayla-tenise-brooks-asset-01.jpg"
-            },
-            {
-              "link_only_name": "true",
-              "img": "kayla-tenise-brooks-asset-02.jpg"
-            }
-          ],
-          "content_wrap": {
-            "title": "Courage the Cowardly Dog Painting",
-            "description": "<p>Courage the Cowardly Dog Painting using reference photos and created with Acrylic Matte Paint.<p>",
-            "button_wrap": [
-              {
-                "link_only_name": "false",
-                "icon": "https://i.imgur.com/li2px0V.png",
-                "text": " "
-              }
-            ]
+    "About_Content": [
+      {
+        "_comment": "About Images and Content",
+        "title": "Aspiring Game Artist & IT Professional with a Passion for Growth and Innovation"
+      },
+      {
+        "Images": [
+          {
+            "image_name": "profile-img-01.jpg",
+            "alt_tag": "Kayla Tenise Brooks"
+          },
+          {
+            "image_name": "profile-img-03.jpg",
+            "alt_tag": "Kayla Tenise Brooks"
           }
-        },
-        {
-          "carousel_imgs": [
-            {
-              "link_only_name": "true",
-              "img": "kayla-tenise-brooks-axetutorial-01.jpg"
-            },
-            {
-              "link_only_name": "true",
-              "img": "kayla-tenise-brooks-axetutorial-02.jpg"
-            }
-          ],
-          "content_wrap": {
-            "title": "Krita 5.0 Tutorial Paintings",
-            "description": "<p>Digital Paintings was created following the Digital Painting Krita 5.0 Tutorial on Udemy instructed by Widhi Muttaqien.<p>",
-            "button_wrap": [
+        ]
+      },
+      {
+        "title": "Aspiring Game Artist & IT Professional with a Passion for Growth and Innovation",
+        "Content": "<p>Hello!</p>\n<p>I’m Kayla Brooks, a recent graduate with a Bachelor’s in Computer Science from Jackson State University, class of December 2022. I began my career journey as an IT Support Analyst intern at Hollywood Casino Aurora with PENN Entertainment. This role was an invaluable experience, providing me with hands-on knowledge in End-User Support, Networking, and Infrastructure. I also gained skills in Project Management, where I contributed effective solutions that surpassed IT department goals and strengthened my problem-solving abilities.</p>\n<p>In addition to my technical background, I am actively exploring the creative side of technology. I am currently volunteering with [P1] Virtual Civilization Interactive to immerse myself in the Game Development process and to build a portfolio as a Game Artist. This experience has allowed me to connect with talented artists worldwide and develop a skillset in Graphic Design. I am enthusiastic about discovering my niche within the art field and would greatly appreciate any guidance or mentorship from industry professionals!</p>\n<p>I’m excited to connect with others who share my passion for tech and art, and I’m eager to discuss potential opportunities to grow as a technical professional while contributing to an organization’s success. Thank you for your time and consideration!</p>"
+      }
+    ],
+    "Worked_across": [
+      {
+        "_comment": "I’ve worked across domains Section",
+        "title": "I’ve worked across domains"
+      },
+      {
+        "jobs": [
+          {
+            "role": "Help Desk Support Technician",
+            "company": "GSD Technologies · Full-time",
+            "startEndDate": "Aug 2024 - Present"
+          },
+          {
+            "role": "Game Artist",
+            "company": "[P1] Virtual Civilization Initiative · Part-time",
+            "startEndDate": "Dec 2023 - Mar 2024"
+          },
+          {
+            "role": "Information Technology Support Analyst",
+            "company": "PENN Entertainment, Inc · Full-time",
+            "startEndDate": "Jan 2023 - Jan 2024"
+          },
+          {
+            "role": "IT LEAP Intern",
+            "company": "PENN Entertainment, Inc · Internship",
+            "startEndDate": "Jun 2022 - Aug 2022"
+          },
+          {
+            "role": "Mail Sorter",
+            "company": "Onin Staffing · Full-time",
+            "startEndDate": "Dec 2020 - Jan 2021"
+          },
+          {
+            "role": "Fast Food Team Member",
+            "company": "Dairy Queen · Full-time",
+            "startEndDate": "May 2020 - Jun 2020"
+          },
+          {
+            "role": "Warehouse Associate",
+            "company": "Amazon · Full-time",
+            "startEndDate": "May 2019 - Aug 2019"
+          },
+          {
+            "role": "Associate",
+            "company": "Kohl's · Part-time",
+            "startEndDate": "Dec 2017 - Dec 2018"
+          },
+          {
+            "role": "Crew Member",
+            "company": "Culver's Restaurants · Part-time",
+            "startEndDate": "Dec 2016 - Dec 2017"
+          }
+        ]
+      }
+    ],
+    "academic_journey": [
+      {
+        "_comment": "My Academic Journey Section",
+        "title": "My Academic Journey"
+      },
+      {
+        "Edu": [
+          {
+            "title": "Jackson State University",
+            "deg": "Bachelor's degree, Computer Science",
+            "grade": "Grade: 3.478",
+            "startEndDate": "Aug 2018 - Dec 2022"
+          }
+        ]
+      }
+    ],
+    "professional_badges": [
+      {
+        "_comment": "My Professional Badges Section",
+        "title": "My Professional Badges"
+      },
+      {
+        "pro_badges": [
+          {
+            "title": "CompTIA Security+ ce Certification",
+            "place": "CompTIA",
+            "startEndDate": "Issued Jul 2024 · Expires Jul 2027",
+            "credential": "Credential ID J6D3XS66EN11QP59",
+            "credential_link": "https://www.credly.com/badges/1c5c7310-87f7-4d57-9491-ff26a820d41a/linked_in_profile"
+          }
+        ]
+      }
+    ],
+    "Work_wrap": [
+      {
+        "_comment": "Work Wrap",
+        "title": "Work"
+      },
+      {
+        "Work_items_wrap": [
+          {
+            "carousel_imgs": [
               {
                 "link_only_name": "true",
-                "icon": "krita-logo1.png",
-                "text": "Krita"
-              }
-            ]
-          }
-        },
-        {
-          "carousel_imgs": [
-            {
-              "link_only_name": "true",
-              "img": "kayla-tenise-brooks-tumbleredo-01.jpg"
-            },
-            {
-              "link_only_name": "true",
-              "img": "kayla-tenise-brooks-tumbleredo2-02.jpg"
-            }
-          ],
-          "content_wrap": {
-            "title": "2D Tumble Character Evolution Concept 2",
-            "description": "<p>Tumble SkyJellies Concept Art 2\nThe last 3 Stages are original ideas by Romeo Varga for v2.1\nFirst 3 Stages My Idea for v2.2\nShow less\n<p>",
-            "button_wrap": [
+                "img": "kayla-tenise-brooks-axetutorial-01.jpg"
+              },
               {
                 "link_only_name": "true",
-                "icon": "krita-logo1.png",
-                "text": "Krita"
+                "img": "kayla-tenise-brooks-axetutorial-02.jpg"
               }
-            ]
-          }
-        },
-        {
-          "carousel_imgs": [
-            {
-              "link_only_name": "true",
-              "img": "rockconcept-01.jpg"
+            ],
+            "content_wrap": {
+              "title": "Krita 5.0 Tutorial Paintings",
+              "description": "<p>Digital Paintings was created following the Digital Painting Krita 5.0 Tutorial on Udemy instructed by Widhi Muttaqien.<p>",
+              "button_wrap": [
+                {
+                  "link_only_name": "true",
+                  "icon": "krita-logo1.png",
+                  "text": "Krita"
+                }
+              ]
             }
-          ],
-          "content_wrap": {
-            "title": "2D Rock Concept",
-            "description": "<p>Rock Concept created for SkyJellies.\n<p>",
-            "button_wrap": [
+          },
+          {
+            "carousel_imgs": [
               {
                 "link_only_name": "true",
-                "icon": "krita-logo1.png",
-                "text": "Krita"
-              }
-            ]
-          }
-        },
-        {
-          "carousel_imgs": [
-            {
-              "link_only_name": "true",
-              "img": "kayla-brooks-skyjellylanderside-01.jpg"
-            },
-            {
-              "link_only_name": "true",
-              "img": "kayla-brooks-lander-02.jpg"
-            },
-            {
-              "link_only_name": "true",
-              "img": "kayla-brooks-lander-inside-05.jpg"
-            },
-            {
-              "link_only_name": "true",
-              "img": "kayla-brooks-screenshot-2024-02-09-115702-04.jpg"
-            },
-            {
-              "link_only_name": "true",
-              "img": "kayla-brooks-refinside-06.jpg"
-            }
-          ],
-          "content_wrap": {
-            "title": "3D Astronaut Lander",
-            "description": "<p>My First 3D model This is the Astronaut Lander for the SkyJellies\n</p>",
-            "button_wrap": [
+                "img": "kayla-brooks-skyjellylanderside-01.jpg"
+              },
               {
                 "link_only_name": "true",
-                "icon": "blender-icon.png",
-                "text": "Blender"
-              }
-            ]
-          }
-        },
-        {
-          "carousel_imgs": [
-            {
-              "link_only_name": "true",
-              "img": "kayla-brooks-berrybush1-23-24-01.jpg"
-            }
-          ],
-          "content_wrap": {
-            "title": "2D Berry Bush Concept",
-            "description": "<p>Berry Bush Concept Created for SkyJellies\nMy First Asset Concept Art\n</p>",
-            "button_wrap": [
+                "img": "kayla-brooks-lander-02.jpg"
+              },
               {
                 "link_only_name": "true",
-                "icon": "krita-logo1.png",
-                "text": "Krita"
-              }
-            ]
-          }
-        },
-        {
-          "carousel_imgs": [
-            {
-              "link_only_name": "true",
-              "img": "kayla-brooks-tumbleevostages-01.jpg"
-            }
-          ],
-          "content_wrap": {
-            "title": "Tumble Character Evolution Concept Art",
-            "description": "<p>SkyJellies Tumble Concept Art\nMy First Character Concept Art.\n</p>",
-            "button_wrap": [
+                "img": "kayla-brooks-lander-inside-05.jpg"
+              },
               {
                 "link_only_name": "true",
-                "icon": "krita-logo1.png",
-                "text": "Krita"
+                "img": "kayla-brooks-screenshot-2024-02-09-115702-04.jpg"
+              },
+              {
+                "link_only_name": "true",
+                "img": "kayla-brooks-refinside-06.jpg"
               }
-            ]
+            ],
+            "content_wrap": {
+              "title": "3D Astronaut Lander",
+              "description": "<p>My First 3D model This is the Astronaut Lander for the SkyJellies\n</p>",
+              "button_wrap": [
+                {
+                  "link_only_name": "true",
+                  "icon": "blender-icon.png",
+                  "text": "Blender"
+                }
+              ]
+            }
+          },
+          {
+            "carousel_imgs": [
+              {
+                "link_only_name": "true",
+                "img": "kayla-tenise-brooks-tumbleredo-01.jpg"
+              },
+              {
+                "link_only_name": "true",
+                "img": "kayla-tenise-brooks-tumbleredo2-02.jpg"
+              }
+            ],
+            "content_wrap": {
+              "title": "2D Tumble Character Evolution Concept 2",
+              "description": "<p>Tumble SkyJellies Concept Art 2\nThe last 3 Stages are original ideas by Romeo Varga for v2.1\nFirst 3 Stages My Idea for v2.2\nShow less\n<p>",
+              "button_wrap": [
+                {
+                  "link_only_name": "true",
+                  "icon": "krita-logo1.png",
+                  "text": "Krita"
+                }
+              ]
+            }
+          },
+          {
+            "carousel_imgs": [
+              {
+                "link_only_name": "true",
+                "img": "rockconcept-01.jpg"
+              }
+            ],
+            "content_wrap": {
+              "title": "2D Rock Concept",
+              "description": "<p>Rock Concept created for SkyJellies.\n<p>",
+              "button_wrap": [
+                {
+                  "link_only_name": "true",
+                  "icon": "krita-logo1.png",
+                  "text": "Krita"
+                }
+              ]
+            }
+          },
+          {
+            "carousel_imgs": [
+              {
+                "link_only_name": "true",
+                "img": "kayla-brooks-berrybush1-23-24-01.jpg"
+              }
+            ],
+            "content_wrap": {
+              "title": "2D Berry Bush Concept",
+              "description": "<p>Berry Bush Concept Created for SkyJellies\nMy First Asset Concept Art\n</p>",
+              "button_wrap": [
+                {
+                  "link_only_name": "true",
+                  "icon": "krita-logo1.png",
+                  "text": "Krita"
+                }
+              ]
+            }
+          },
+          {
+            "carousel_imgs": [
+              {
+                "link_only_name": "true",
+                "img": "kayla-brooks-tumbleevostages-01.jpg"
+              }
+            ],
+            "content_wrap": {
+              "title": "Tumble Character Evolution Concept Art",
+              "description": "<p>SkyJellies Tumble Concept Art\nMy First Character Concept Art.\n</p>",
+              "button_wrap": [
+                {
+                  "link_only_name": "true",
+                  "icon": "krita-logo1.png",
+                  "text": "Krita"
+                }
+              ]
+            }
+          },
+          {
+            "carousel_imgs": [
+              {
+                "link_only_name": "true",
+                "img": "kayla-tenise-brooks-asset.jpg"
+              },
+              {
+                "link_only_name": "true",
+                "img": "kayla-tenise-brooks-asset-01.jpg"
+              },
+              {
+                "link_only_name": "true",
+                "img": "kayla-tenise-brooks-asset-02.jpg"
+              }
+            ],
+            "content_wrap": {
+              "title": "Courage the Cowardly Dog Painting",
+              "description": "<p>Courage the Cowardly Dog Painting using reference photos and created with Acrylic Matte Paint.<p>",
+              "button_wrap": [
+                {
+                  "link_only_name": "false",
+                  "icon": "https://i.imgur.com/li2px0V.png",
+                  "text": " "
+                }
+              ]
+            }
           }
-        }
-      ]
-    }
-  ]
-}
+
+        ]
+      }
+    ]
+  }
